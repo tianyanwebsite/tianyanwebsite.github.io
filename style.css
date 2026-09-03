@@ -43,7 +43,17 @@ footer {
     font-size: 0.9em;
 }
 
-logo {
-    width: 120px;
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    width: 80px;
     height: auto;
+}
+
+.brand h1 {
+    margin: 0;
 }
