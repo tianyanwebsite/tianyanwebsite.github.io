@@ -46,22 +46,21 @@ footer {
 /* Logo and website name */
 .brand {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
     gap: 10px;
+
+    text-decoration: none;
 }
 
-/* Logo size */
 .logo {
-    width: 150px;
+    width: 120px;
     height: auto;
 }
 
-/* Website name */
-.brand h1 {
-    margin: 0;
+.site-name {
     color: white;
-    text-align: left;
-    font-size: 20px;
-    font-family: "Times New Roman", serif;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
 }
+
