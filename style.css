@@ -64,3 +64,10 @@ footer {
     font-family: "Montserrat", sans-serif;
 }
 
+.title-image {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin: 30px auto;
+}
