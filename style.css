@@ -101,3 +101,35 @@ h3 {
     font-size: 18px;
     color: white;
 }
+
+/* Founder photo and text side by side */
+.founder-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.founder-photo {
+    width: 300px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.founder-text {
+    flex: 1;
+}
+
+.founder-text h2 {
+    margin-top: 0;
+}
+@media (max-width: 600px) {
+    .founder-section {
+        flex-direction: column;
+    }
+
+    .founder-photo {
+        width: 100%;
+        max-width: 300px;
+    }
+}
