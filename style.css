@@ -123,3 +123,16 @@ h3 {
 .founder-text h2 {
     margin-top: 0;
 }
+
+@media (max-width: 600px) {
+    .founder-section {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .founder-photo {
+        width: 80%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
