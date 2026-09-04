@@ -111,7 +111,7 @@ h3 {
 }
 
 .founder-photo {
-    width: 300px;
+    width: 200px;
     height: auto;
     flex-shrink: 0;
 }
@@ -130,6 +130,6 @@ h3 {
 
     .founder-photo {
         width: 100%;
-        max-width: 300px;
+        max-width: 200px;
     }
 }
