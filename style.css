@@ -111,7 +111,7 @@ h3 {
 }
 
 .founder-photo {
-    width: 200px;
+    width: 300px;
     height: auto;
     flex-shrink: 0;
 }
@@ -122,14 +122,4 @@ h3 {
 
 .founder-text h2 {
     margin-top: 0;
-}
-@media (max-width: 600px) {
-    .founder-section {
-        flex-direction: column;
-    }
-
-    .founder-photo {
-        width: 100%;
-        max-width: 200px;
-    }
 }
