@@ -73,17 +73,21 @@ footer {
     margin: 30px auto;
 }
 
+/* General style for all image figures */
 .image-figure {
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
+/* Make every image inside an image figure fit the page width */
+.image-figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Image description */
 .image-figure figcaption {
     margin-top: 3px;
     font-size: 0.9em;
     color: #ccc;
-}
-.umea-city {
-    width: 100%;
-    height: auto;
-    display: block;
 }
