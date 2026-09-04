@@ -72,3 +72,13 @@ footer {
     height: auto;
     margin: 30px auto;
 }
+
+.image-figure {
+    margin: 10px 0;
+}
+
+.image-figure figcaption {
+    margin-top: 3px;
+    font-size: 0.9em;
+    color: #ccc;
+}
